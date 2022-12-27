@@ -121,3 +121,28 @@
 {
   background-color: #e5e5e5;
 }
+.head3
+{
+  background-color: #f5f5f5;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.head3 p
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.5px;
+}
+.head3 span
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.head3 span a
+{
+  color: black;
+}
