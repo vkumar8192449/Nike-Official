@@ -3,6 +3,10 @@
   margin: 0px;
   padding: 0px;
 }
+p
+{
+  font-family: 'Roboto', sans-serif;
+}
 #tophead
 {
   display: flex;
@@ -236,4 +240,88 @@
 #category div button:hover
 {
   background-color: #757575;
+}
+#section3
+{
+  margin: 100px 50px;
+}
+#spot
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spotlight
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+#spot div
+{
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  align-items: center;
+}
+#spot div button
+{
+  background-color: #f6f6f6;
+  color: #575757;
+  width: 46px;
+  height: 46px;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#spot div button:hover
+{
+  background-color: #cccccc;
+}
+.slideshop
+{
+  font-size: 16px;
+  font-weight: bold;
+}
+#shoecards
+{
+  display: flex;
+  margin-top: 15px;
+  overflow: scroll;
+}
+#shoecards::-webkit-scrollbar {
+  display: none;
+}
+.shoes
+{
+  margin-right: 15px;
+}
+.details
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.shoe
+{
+  width: 450px;
+  height: 450px;
+}
+.details div p:first-child
+{
+  font-weight: bold;
+}
+.details div p:nth-child(2)
+{
+  font-weight: bold;
+  color: gray;
+}
+.details p
+{
+  font-weight: bold;
 }
