@@ -1,0 +1,51 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+#tophead
+{
+  display: flex;
+  flex-direction: column;
+}
+.heads
+{
+  padding: 0px 50px;
+}
+.head1
+{
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+#jordan
+{
+  width: 24px;
+  height: 24px;
+}
+#jordan:hover
+{
+  filter: opacity(50%);
+}
+#fhjs ul
+{
+  list-style: none;
+}
+#fhjs ul li
+{
+  float: left;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  margin: 0px 6px;
+}
+#fhjs ul li a
+{
+  color: black;
+  text-decoration: none;
+}
+#fhjs ul li a:hover
+{
+  color: #757575;
+}
