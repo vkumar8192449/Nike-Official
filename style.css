@@ -440,6 +440,7 @@ td:hover
   height: 40vh;
   background-color: black;
   display: flex;
+  position: relative;
 }
 #footer div a
 {
@@ -484,4 +485,23 @@ td:hover
 .smalllinks:hover
 {
   color: white;
+}
+#social
+{
+  position: absolute;
+  right: 80px;
+  top: 55px;
+}
+#social svg
+{
+  margin-right: 8px;
+  background-color: #7e7e7e;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+  border-radius: 50%;
+}
+#social svg:hover
+{
+  background-color: white;
 }
