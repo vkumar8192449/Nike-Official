@@ -434,7 +434,7 @@ td:hover
 {
   color: black;
 }
-#footer
+#footer1
 {
   margin-top: 70px;
   height: 40vh;
@@ -442,7 +442,7 @@ td:hover
   display: flex;
   position: relative;
 }
-#footer div a
+#footer1 div a
 {
   text-decoration: none;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -504,4 +504,54 @@ td:hover
 #social svg:hover
 {
   background-color: white;
+}
+#footer2
+{
+  height: 5vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #757575;
+  padding-top: 18px;
+}
+#location
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  width: 18%;
+}
+#location svg
+{
+  width: 15px;
+  height: 15px;
+  filter: invert(100%);
+}
+#location p
+{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12.5px;
+}
+#ind
+{
+  color: white;
+}
+#terms
+{
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+}
+#terms a
+{
+  text-decoration: none;
+  color: #757575;
+  margin-right: 15px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12.5px;
+}
+#terms a:hover
+{
+  color: white;
 }
