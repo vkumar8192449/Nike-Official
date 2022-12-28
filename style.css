@@ -403,3 +403,34 @@ p
 {
   background-color: #b2b2b2;
 }
+#models
+{
+  margin: 0px 200px;
+  display: flex;
+  justify-content: center;
+}
+#models table
+{
+  margin-top: 130px;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 75px;
+}
+th
+{
+  height: 52px;
+  font-weight: bold;
+  font-size: 17px;
+}
+td
+{
+  color: #757575;
+  font-weight: bold;
+  font-size: 15px;
+  width: 230px;
+  height: 33px;
+}
+td:hover
+{
+  color: black;
+}
